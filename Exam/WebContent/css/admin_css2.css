@@ -1,0 +1,207 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+	background-image:url("../admin_images/bg.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	min-height:720px;
+}
+
+/* Navbar container */
+.navbar_css {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar_css a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown_css {
+  float: left;
+  overflow: hidden;
+}
+.dropdown_css_btn2 {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown_css .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 30px;
+  background-color: #333;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.dropdown_css_btn2 .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 55px;
+  background-color: #333;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Add a red background color to navbar links on hover */
+.navbar_css a:hover, .dropdown_css:hover .dropbtn {
+  background-color: red;
+}
+.navbar_css a:hover, .dropdown_css_btn2:hover .dropbtn {
+  background-color: red;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown_css:hover .dropdown-content {
+  display: block;
+}
+.dropdown_css_btn2:hover .dropdown-content {
+  display: block;
+}
+
+.textbox-search input[type="text"]
+{
+	width:65%;
+	margin-left:5px;
+	float:right;
+	padding:8px;
+}
+.textbox-update input[type="text"]
+{
+	width:70%;
+	margin-left:35px;
+	padding:8px;
+}
+.span-search
+{
+	color: #000;
+	text-align:left;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top: 25px;
+	 font-size: 15px;
+	  width: 45%;
+}
+
+.span-upadte
+{
+	color: #000;
+	text-align:left;
+	font-weight:bold;
+	padding-top: 25px;
+	 font-size: 17px;
+	  width: 45%;
+}
+.search-btn
+{
+	width:30%;
+	height:50px;
+	border:2px;
+	background-color:forestgreen;
+	color:white;
+	font-size:25px;
+	margin-left:20%;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.back-btn
+{
+	width:30%;
+	height:50px;
+	border:2px;
+	background-color:forestgreen;
+	color:white;
+	font-size:25px;
+	margin-left:10%;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+textarea
+{
+	width:64%;
+	height:45px;
+	margin-left:35%;
+}
+.textbox-search select
+{
+	width:60%;
+	margin-left:20px;
+	float:right;
+	height:30px;
+	margin-bottom:25px;
+}
+.span-ass-seat
+{
+	width:30%;
+	margin-left:20px;
+	float:left;
+}
+span
+{
+	color: #000;
+	text-align:left;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top: 8px;
+	 font-size: 15px;
+	  width: 30%;
+	  	margin-bottom:25px;
+}
+table
+{
+	width:140%;
+	font-size:13px;
+	color:black;
+}
+.table-assign-seat
+{
+	width:100%;
+	font-size:13px;
+	color:black;
+}
+.table-contact-us
+{
+	width:100%;
+	font-size:13px;
+	color:black;
+}
+.th--contact-us
+{
+	width:20%;
+}

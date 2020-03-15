@@ -1,0 +1,201 @@
+@CHARSET "ISO-8859-1";
+
+.container-reg
+{
+	margin-top:10px;
+}
+div
+{
+	font-size:15px;
+}
+.div-text
+{
+	float:right;
+	width:100%;
+}
+
+span
+{
+	color: #000;
+	text-align:left;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top: 10px;
+	 font-size: 12px;
+	  width: 60%;
+}
+.span-search
+{
+	color: #000;
+	text-align:left;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top: 25px;
+	 font-size: 15px;
+	  width: 45%;
+
+}
+.text-box1 input[type="text"]
+{
+	width:60%;
+	margin-left:20px;
+	float:right;
+}
+.textbox-search select
+{
+	width:65%;
+	margin-left:5px;
+	float:right;
+	padding:8px;
+}
+
+.text-pass input[type="password"]
+{
+	width:60%;
+	margin-left:20px;
+	float:right;
+}
+
+.text-dates input[type="date"]
+{
+	width:60%;
+	margin-left:20px;
+	float:right;
+}
+.update-box1 input[type="text"]
+{
+	width:100%;
+	float:left;
+	height:30px;
+}
+.update-textarea
+{
+	width:100%;
+	float:left;
+	height:40px;
+}
+.contactus_textarea
+{
+	width:60%;
+	height:40px;
+	margin-left:27%;
+}
+.update-select
+{
+	width:100%;
+	float:left;
+	height:30px;
+}
+.update-btn
+{
+	width:25%;
+	height:50px;
+	border:2px;
+	background-color:forestgreen;
+	color:white;
+	font-size:25px;
+	margin-left:9%;
+}
+.search-btn
+{
+	width:25%;
+	height:50px;
+	border:2px;
+	background-color:forestgreen;
+	color:white;
+	font-size:25px;
+	margin-left:20%;
+	margin-top:35px;
+	margin-bottom:20px;
+}
+.search-btn
+{
+	width:35%;
+	height:50px;
+	border:2px;
+	background-color:forestgreen;
+	color:white;
+	font-size:20px;
+	margin-left:20%;
+	margin-top:35px;
+}
+.update-delete-pro
+{
+	width:40%;
+	height:50px;
+	border:2px;
+	background-color:forestgreen;
+	color:white;
+	font-size:20px;
+	margin-left:7%;
+}
+.body-img{
+	background-image:url("../images/home_bg.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	min-height:720px;
+}
+.reg_button
+{
+	 background: deepskyblue;
+    color: #ffffff;
+	font-size:16px;
+	padding:10px 20px;
+	float:right;
+	margin-top:0px;
+	margin-bottom:20px;
+}
+
+#nav
+{
+	margin:10px;
+	padding:10px;
+}
+
+#nav ul li
+{
+	background-color:yellow;
+	font-weight:bold;
+	
+}
+#nav ul li a
+{
+text-decoration:none;
+color:black;
+font-size:18px;
+}
+#nav ul li a:hover
+{
+	
+	float:left;
+	display:bloack;
+	color:blue;
+	align:right;
+	
+}
+table
+{
+	width:150%;
+	font-size:13px;
+	color:black;
+	
+}
+.table-assignseat
+{
+	width:100%;
+	font-size:20px;
+	color:black;
+	margin-left:15px;
+}
+.back-btn
+{
+	width:30%;
+	height:50px;
+	border:2px;
+	background-color:forestgreen;
+	color:white;
+	font-size:25px;
+	margin-left:10%;
+	margin-top:10px;
+	margin-bottom:20px;
+}
